@@ -83,10 +83,7 @@ npm run preview
 
 **Swathi S.**
 
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* GitHub: https://github.com/swathii0939
+* LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/swathi-s-48970132b/)
+* Email: 20swathi05@gmail.com
 
-## 📄 License
-
-This project is created for personal portfolio purposes.
