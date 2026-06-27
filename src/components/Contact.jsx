@@ -5,9 +5,9 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined'
 
 const LINKS = [
-  { label: 'swathis@email.com', icon: MailOutlineIcon, href: 'mailto:swathis@email.com' },
-  { label: 'linkedin.com/in/swathis', icon: LinkedInIcon, href: 'https://linkedin.com/in/swathis' },
-  { label: 'github.com/swathis', icon: GitHubIcon, href: 'https://github.com/swathis' },
+  { label: '20swathi05@gmail.com', icon: MailOutlineIcon, href: 'mailto:20swathi05@gmail.com' },
+  { label: 'https://www.linkedin.com/in/swathi-s-48970132b/', icon: LinkedInIcon, href: 'https://www.linkedin.com/in/swathi-s-48970132b/' },
+  { label: 'https://github.com/swathii0939', icon: GitHubIcon, href: 'https://github.com/swathii0939' },
   { label: 'India', icon: PlaceOutlinedIcon, href: null },
 ]
 

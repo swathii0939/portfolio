@@ -58,18 +58,14 @@ export default function Hero() {
       <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1 }}>
         <Stack direction={{ xs: 'column', md: 'row' }} spacing={5} alignItems={{ md: 'center' }}>
           <Avatar
-            sx={{
-              width: 96, height: 96,
-              bgcolor: 'background.paper',
-              border: '2px solid',
-              borderColor: 'secondary.main',
-              fontFamily: '"Fraunces", serif',
-              fontSize: '2.2rem',
-              color: 'secondary.main',
-            }}
-          >
-            S
-          </Avatar>
+  src="/profile.jpg"
+  alt="Swathi S."
+  sx={{
+    width: 96, height: 96,
+    border: '2px solid',
+    borderColor: 'secondary.main',
+  }}
+/>
 
           <Stack spacing={2.5} sx={{ maxWidth: 560 }}>
             <Chip
@@ -85,14 +81,14 @@ export default function Hero() {
               }}
             />
             <Typography variant="h1" sx={{ fontSize: { xs: '2.4rem', md: '3.2rem' }, lineHeight: 1.1 }}>
-              Hi, I'm{' '}
+              I'm{' '}
               <Box component="span" sx={{ color: 'secondary.main' }}>
                 Swathi S.
               </Box>
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: '1.05rem', lineHeight: 1.7 }}>
               I'm an AI &amp; ML student passionate about building intelligent systems that solve
-              real-world problems — exploring machine learning, deep learning, data analytics, and
+              real-world problems exploring machine learning, deep learning, data analytics, and
               web development along the way.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: '1.05rem', lineHeight: 1.7 }}>
@@ -101,24 +97,6 @@ export default function Hero() {
             </Typography>
 
             <Stack direction="row" spacing={1.5} sx={{ pt: 1 }}>
-              <Button
-                variant="contained"
-                color="secondary"
-                endIcon={<NorthEastIcon fontSize="small" />}
-                href="/resume.pdf"
-                sx={{ color: '#0B0F19', fontWeight: 700, px: 3 }}
-              >
-                Download Resume
-              </Button>
-              <Button
-                variant="outlined"
-                color="inherit"
-                startIcon={<MailOutlineIcon fontSize="small" />}
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                sx={{ borderColor: 'rgba(244,242,237,0.25)', px: 3 }}
-              >
-                Let's Connect
-              </Button>
             </Stack>
 
             <Stack direction="row" spacing={3} sx={{ pt: 2, flexWrap: 'wrap' }}>

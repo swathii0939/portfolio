@@ -41,13 +41,13 @@ export default function Education() {
                 B.Tech — Artificial Intelligence &amp; Machine Learning
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary', mt: 0.5 }}>
-                Your College / University Name
+                SRI KRISHNA COLLEGE OF TECHNOLOGY, Coimabtore
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 2024 – 2028 · Expected Graduation May 2028
               </Typography>
               <Chip
-                label="CGPA: 9.2 / 10.0"
+                label="CGPA: 8.4 / 10.0"
                 size="small"
                 sx={{
                   mt: 1.5,

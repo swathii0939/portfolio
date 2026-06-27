@@ -42,7 +42,7 @@ export default function Navbar() {
             flexGrow: 1,
           }}
         >
-          swathi<Box component="span" sx={{ color: 'text.primary' }}>.s</Box>
+          Swathi's<Box component="span" sx={{ color: 'text.primary' }}> Portfolio</Box>
         </Box>
 
         {isMobile ? (
