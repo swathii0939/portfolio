@@ -1,41 +1,92 @@
-# Swathi S. — AI & ML Portfolio (React + MUI)
+# 🌐 Swathi S. – Portfolio Website
 
-A personal portfolio built with **React** and **Material UI**, upgraded from an
-earlier HTML/CSS version. Showcases skills, featured AI/ML projects, education,
-and contact info, with a small animated neural-network motif in the hero section.
+A modern and responsive personal portfolio built using **React**, **Vite**, and **Material UI (MUI)**. It showcases my skills, projects, education, and contact information with a clean, interactive, and mobile-friendly design.
 
-## Tech stack
-- React 18 + Vite
-- Material UI (MUI) v6
-- Emotion (styling engine used by MUI)
+## ✨ Features
 
-## Getting started
+* Responsive design for desktop, tablet, and mobile devices
+* Modern UI built with Material UI (MUI)
+* Interactive Hero section
+* Skills section highlighting technical expertise
+* Projects section showcasing AI/ML and web development projects
+* Education section
+* Contact section with social media links
+
+## 🛠️ Tech Stack
+
+* React 18
+* Vite
+* Material UI (MUI)
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   ├── Education.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── theme.js
+
+public/
+└── profile.jpg
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd your-repository
+```
+
+Install dependencies:
 
 ```bash
 npm install
-npm run dev       # start local dev server
-npm run build     # production build into /dist
-npm run preview   # preview the production build
 ```
 
-## Project structure
+Run the development server:
 
-```
-src/
-  components/
-    Navbar.jsx
-    Hero.jsx
-    Skills.jsx
-    Projects.jsx
-    Education.jsx
-    Contact.jsx
-  App.jsx
-  main.jsx
-  theme.js
+```bash
+npm run dev
 ```
 
-## Customize
+Build for production:
 
-- Replace placeholder details (email, college name, LinkedIn/GitHub links,
-  resume PDF) in `src/components/Hero.jsx`, `Education.jsx`, and `Contact.jsx`.
-- Add a real resume at `public/resume.pdf` so the "Download Resume" button works.
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 📬 Contact
+
+**Swathi S.**
+
+* GitHub: https://github.com/your-username
+* LinkedIn: https://linkedin.com/in/your-profile
+* Email: [your-email@example.com](mailto:your-email@example.com)
+
+## 📄 License
+
+This project is created for personal portfolio purposes.
